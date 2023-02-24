@@ -7,13 +7,13 @@ entries:
           description: Initial version
     apiVersion: v2
     appVersion: v0.6.9
-    created: "2023-02-24T15:50:36.248851115Z"
+    created: "2023-02-24T19:37:17.930569687Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts
       version: 1.2.1
     description: Chart for benphelps' Homepage
-    digest: e84d4bbb93771929202e8ca70bd77ad0a73fdcc87e78d2a284cb57dd787f5577
+    digest: 3edd214a01b87f971ebf4869c5313b4b818966d3e84aacff3ca2cb280743b81d
     icon: https://github.com/benphelps/homepage/blob/de584eae8f12a0d257e554e9511ef19bd2a1232c/public/mstile-150x150.png
     maintainers:
     - name: jameswynn
@@ -24,4 +24,4 @@ entries:
     urls:
     - https://github.com/benphelps/homepage/releases/download/homepage-0.1.0/homepage-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-24T15:50:36.090624716Z"
+generated: "2023-02-24T19:37:17.76085325Z"
