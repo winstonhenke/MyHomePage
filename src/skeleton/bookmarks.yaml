@@ -4,15 +4,15 @@
 
 - Developer:
     - Github:
-        - abbr: GH
+        - icon: github-light.png
           href: https://github.com/
 
 - Social:
     - Reddit:
-        - abbr: RE
+        - icon: reddit.png
           href: https://reddit.com/
 
 - Entertainment:
     - YouTube:
-        - abbr: YT
+        - icon: youtube-play.png
           href: https://youtube.com/
