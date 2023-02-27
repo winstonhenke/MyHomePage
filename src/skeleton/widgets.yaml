@@ -2,11 +2,37 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/widgets
 
+- logo:
+    icon: https://s3.us-east-2.amazonaws.com/winstonhenke.com/assets/bimi.svg
+
 - resources:
-    cpu: true
-    memory: true
-    disk: /
+    cpu: false
+    memory: false
+    disk: false
+
+- datetime:
+    text_size: xl # 4xl | 3xl | 2xl | xl | md | sm | xs
+    # https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat
+    format:
+      # dateStyle: medium
+      # timeStyle: short
+      weekday: long # long | short | narrow
+      # year: 2-digit # numeric | 2-digit
+      month: short # numeric | 2-digit | long | short | narrow
+      day: numeric # numeric | 2-digit
+      hour: numeric # numeric | 2-digit
+      minute: numeric # numeric | 2-digit
+      hourCycle: h12
 
 - search:
-    provider: duckduckgo
-    target: _blank
+    provider: google
+    target: _blank # One of _self, _blank, _parent or _top
+
+- openmeteo:
+    label: MKE # optional
+    latitude: 43.0389
+    longitude: -87.90647
+    timezone: America/Chicago # optional
+    units: imperial # metric or imperial
+    cache: 5 # Time in minutes to cache API responses, to stay within limits
+

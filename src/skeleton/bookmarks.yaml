@@ -2,10 +2,22 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/bookmarks
 
-- Developer:
+- Common:
     - Github:
         - icon: github-light.png
-          href: https://github.com/
+          href: https://github.com/winstonhenke
+    - Mail (work):
+        - icon: https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico
+          href: https://mail.google.com/a/setgopartners.com
+    - Mail (personal):
+        - icon: https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico
+          href: https://mail.google.com/mail/u/0/#inbox
+    - Meet:
+        - icon: google-meet.png
+          href: https://meet.google.com/landing?authuser=1
+    - Calendar:
+        - icon: https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_26_2x.png
+          href: https://calendar.google.com/a/setgopartners.com
 
 - Social:
     - Reddit:

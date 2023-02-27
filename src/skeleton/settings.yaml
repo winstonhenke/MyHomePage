@@ -2,6 +2,15 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/settings
 
+title: Hello World
+background: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+backgroundOpacity: 0.5
+favicon: https://s3.us-east-2.amazonaws.com/winstonhenke.com/assets/bimi.svg
+headerStyle: clean # underlined | boxed | clean
+target: _blank # _blank (open links in a new tab) | _self (open links in the same tab) | _top (open links in a new window)
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: false

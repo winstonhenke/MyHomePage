@@ -5,14 +5,14 @@
 - My First Group:
     - My First Service:
         href: http://localhost/
-        description: Homepage is awesome
+        description: Example 1
 
 - My Second Group:
     - My Second Service:
         href: http://localhost/
-        description: Homepage is the best
+        description: Example 2
 
 - My Third Group:
     - My Third Service:
         href: http://localhost/
-        description: Homepage is 😎
+        description: Example 3
