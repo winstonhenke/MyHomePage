@@ -1,8 +1,58 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
+  "folders": [
+    {
+      "path": "."
+    }
   ],
-  "settings": {}
+  "settings": {
+    "[Log]": {
+      "editor.wordWrap": "off"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.quickSuggestions": {
+        "comments": true,
+        "other": true,
+        "strings": true
+      }
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.wordWrap": "off"
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml",
+      // Auto formatting causes issues with *-meta.xml files (SFDC does not preserve formatting)
+      "editor.formatOnPaste": false,
+      "editor.formatOnSave": false
+    },
+    // flagWords - list of words to be always considered incorrect
+    "cSpell.flagWords": [],
+    // words - list of words to be always considered correct
+    "cSpell.ignoreWords": [],
+    "cSpell.language": "en",
+    // Prettier
+    "prettier.configPath": ".prettierrc",
+    "prettier.ignorePath": ".prettierignore",
+    "prettier.documentSelectors": ["**/*.md"],
+    "prettier.enableDebugLogs": true,
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "search.exclude": {
+      "**/.sfdx": true,
+      "**/bower_components": true,
+      "**/node_modules": true
+    }
+  }
 }
